@@ -1,0 +1,71 @@
+h1 {
+    font-family: "Open Sans";
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: .7rem;
+    height: .7rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1); 
+    border: 2px solid #fff;
+    text-indent: -9000em;
+    margin: 0 .5rem;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+    border-color: rgba(94, 94, 94, 0.7);
+}
+
+.carousel-item .carousel-caption {
+    width: 100%;
+    top: 50%;
+    padding: 0;
+    left: 0;
+    bottom: 0;
+    transform: translateY(-20%);
+    animation: fadeIn 2s ease-in;
+    -webkit-animation: fadeIn 2s ease-in;
+    -ms-animation: fadeIn 2s ease-in;
+    -o-animation: fadeIn 2s ease-in;
+    -moz-animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes reset {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.carousel-caption h1 {
+    font-size: 4rem;
+}
+
+@media (max-width: 992px) {
+    .carousel-caption h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+}
