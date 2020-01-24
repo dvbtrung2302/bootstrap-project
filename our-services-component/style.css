@@ -74,3 +74,9 @@ p {
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 576px) {
+    .section-header h1 {
+        font-size: 1rem;
+    }
+}
