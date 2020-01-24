@@ -1,0 +1,76 @@
+.section-header h1 {
+	font-family: "Open Sans";
+	font-size: 3rem;
+}
+
+h4 {
+	color: #222222;
+	font-weight: 600;
+	font-family: "Open Sans";
+}
+
+p {
+	color: rgb(94, 94, 94);
+	font-size: 1.2rem;
+}
+
+.section-header:before {
+	content: "";
+	left: 0;
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background-color: #d8d8d8;
+    -webkit-box-shadow: 0px 1px 0px white;
+    -moz-box-shadow: 0px 1px 0px white;
+    box-shadow: 0px 1px 0px white;
+    top: 50%;
+    z-index: 0;
+}
+
+.section-header:after {
+	content: "";
+	right: 0;
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background-color: #d8d8d8;
+    -webkit-box-shadow: 0px 1px 0px white;
+    -moz-box-shadow: 0px 1px 0px white;
+    box-shadow: 0px 1px 0px white;
+    top: 50%;
+    z-index: 0;
+}
+
+.image-wrapper {
+	position: relative;
+	width: 120px;
+	margin: 0 auto;
+}
+
+.default-icon {
+	font-size: 52px;
+	color: #fff;
+}
+
+.more-link {
+	color: #42576a;
+	font-size: 1.2rem;
+}
+
+.more-link:hover, .more-link:focus {
+	color: #567189;
+	text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .section-header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .section-header h1 {
+        font-size: 1.5rem;
+    }
+}
