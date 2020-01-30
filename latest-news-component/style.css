@@ -1,0 +1,105 @@
+/*---------general style-----*/
+.section-header h1 {
+	font-family: "Open Sans";
+	font-size: 3rem;
+}
+
+h4 {
+	color: #222222;
+	font-family: "Open Sans";
+}
+
+p {
+	color: rgb(94, 94, 94);
+	font-size: 1.2rem;
+}
+
+.section-header:before {
+	content: "";
+	left: 0;
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background-color: #d8d8d8;
+    -webkit-box-shadow: 0px 1px 0px white;
+    -moz-box-shadow: 0px 1px 0px white;
+    box-shadow: 0px 1px 0px white;
+    top: 50%;
+    z-index: 0;
+}
+
+.section-header:after {
+	content: "";
+	right: 0;
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background-color: #d8d8d8;
+    -webkit-box-shadow: 0px 1px 0px white;
+    -moz-box-shadow: 0px 1px 0px white;
+    box-shadow: 0px 1px 0px white;
+    top: 50%;
+    z-index: 0;
+}
+/*-------------------------------------*/
+.latest-news-banner span {
+    font-size: 16px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+}
+
+.latest-news-banner .image-wrapper {
+    position: relative;
+    width: 6rem;
+    margin: 0 auto;
+}
+
+.latest-news-banner a {
+    transition: opacity .6s;
+}
+
+.latest-news-banner .default-icon {
+    font-size: 30px;
+    color: #fff;
+}
+
+.latest-news-content a {
+    color: #42576a;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.latest-news-content a:hover {
+    text-decoration: none;
+    color: #567189;
+}
+
+.latest-news-banner a:hover {
+    opacity: .8;
+}
+
+/*-----general style--------------*/
+@media (max-width: 992px) {
+    .section-header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .section-header h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-header h1 {
+        font-size: 1.5rem;
+    }
+    .section-header:before {
+        width: 20%;
+    }
+    .section-header:after {
+        width: 20%;
+    }
+}
+/*--------------------------------*/
