@@ -1,0 +1,34 @@
+h4 {
+	color: #222222;
+	font-family: "Open Sans";
+}
+
+p {
+	color: rgb(94, 94, 94);
+	font-size: 1.2rem;
+}
+
+footer {
+	text-shadow: 1px 1px 0px white;
+}
+
+footer p {
+	color: rgb(94, 94, 94);
+}
+
+footer i {
+	color: rgb(34, 34, 34);
+	transition: color 0.4s;
+}
+
+footer .fa-twitter:hover {
+	color: rgb(0, 160, 209);
+}
+
+footer .fa-facebook-f:hover {
+	color: rgb(59, 89, 152);
+}
+
+footer .fa-pinterest:hover {
+	color: rgb(145, 1, 1);
+}
